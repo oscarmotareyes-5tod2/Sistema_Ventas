@@ -26,18 +26,36 @@ en los cuales se pueden insertar, actualizar o eliminar registros</p>
 </ul>
 <br>
 <h3>Anexos:</h3>
-``
+  
 <h4>-Inicio</h4>
 <img src="imgs/inicio.png" width= 400px>
 <br>
-<h4>-Aprobado</h4>
-<img src="imgs/aprobado.png" width= 400px>
+<h4>-Formulario de Clientes:</h4>
+<img src="imgs/clintes.png" width= 400px>
+<img src="imgs/alselecli.png" width= 400px>
+<img src="imgs/alguardarcli.png" width= 400px> 
+<img src="imgs/alactualizarcli.png" width= 400px>
+<img src="imgs/aleliminarcli.png" width= 400px>
 <br>
-<h4>-Y si Reprobo....</h4>
-<img src="imgs/reprobado.png" width= 400px>
+<h4>-Formulario de Categoria:</h4>
+<img src="imgs/categoria.png" width= 400px>
+<img src="imgs/guardarcate.png" width= 400px>
+<img src="imgs/actucate.png" width= 400px>
+<img src="imgs/elicate.png" width= 400px>
 <br>
-<h4>-Mensaje de Guardado</h4>
-<img src="imgs/guardado.png" width= 400px>
+<h4>-Formulario de Facturacion:</h4>
+<img src="imgs/facturacion.png" width= 400px>
+<br>
+<h4>-Formulario de Ventas:</h4>
+<img src="imgs/venta.png" width= 400px>
+<img src="imgs/guarventa.png" width= 400px>
+<img src="imgs/factura.png" width= 400px>
+<br>
+<h4>-Formulario de Productos::</h4>
+<img src="imgs/producto.png" width= 400px>
+<img src="imgs/guarpro.png" width= 400px>
+<img src="imgs/actupro.png" width= 400px>
+<img src="imgs/elipro.png" width= 400px>
 <br>
 
 ## <b>Gracias por visitar este portafolio</b>
