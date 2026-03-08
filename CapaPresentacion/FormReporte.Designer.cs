@@ -63,11 +63,11 @@
             // 
             // btnVolver
             // 
-            this.btnVolver.Location = new System.Drawing.Point(653, 377);
+            this.btnVolver.Location = new System.Drawing.Point(643, 500);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(122, 33);
             this.btnVolver.TabIndex = 2;
-            this.btnVolver.Text = "Volver";
+            this.btnVolver.Text = "Regresar";
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
@@ -75,7 +75,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 534);
+            this.ClientSize = new System.Drawing.Size(859, 659);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.reportViewer1);
             this.Name = "FormReporte";

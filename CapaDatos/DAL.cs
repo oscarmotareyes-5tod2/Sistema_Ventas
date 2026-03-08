@@ -17,8 +17,7 @@ namespace CapaDatos
 
             using (SqlConnection cn = Conexion.ObtenerConexion())
             {
-                SqlCommand cmd = new SqlCommand("SELECT* From Categoria where Activo=1",
-                    cn);
+                SqlCommand cmd = new SqlCommand("SP_ListarCategorias",cn);
                 cn.Open();
 
                 SqlDataReader dr = cmd.ExecuteReader();

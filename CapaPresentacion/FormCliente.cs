@@ -29,8 +29,7 @@ namespace CapaPresentacion
             return Regex.IsMatch(telefono, @"^\+?[\d-]{7,15}$");
         }
 
-       
-
+      
         private void FormCliente_Load(object sender, EventArgs e)
         {
             CargarClientes();
@@ -55,8 +54,6 @@ namespace CapaPresentacion
             txtTelefono.Clear();
             txtCorreo.Clear();
         }
-
-
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
@@ -84,6 +81,7 @@ namespace CapaPresentacion
             }
 
             cn.Insertar(c);
+            MessageBox.Show("Cliente guardado correctamente");
             CargarClientes();
 
             Limpiar();
@@ -151,6 +149,11 @@ namespace CapaPresentacion
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void LCorreo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

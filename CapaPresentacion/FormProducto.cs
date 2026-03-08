@@ -29,9 +29,6 @@ namespace CapaPresentacion
             dgvProductos.Columns["Id_Producto"].Visible = false;
             dgvProductos.Columns["Activo"].Visible = false;
             dgvProductos.Columns["Id_Categoria"].Visible = false;
-
-
-
         }
         private void CargarCategorias()
         {

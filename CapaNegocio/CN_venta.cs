@@ -31,34 +31,10 @@ namespace CapaNegocio
             if (venta.Total_general <= 0)
                 throw new Exception("El total de la venta no puede ser 0.");
 
-            // Si pasa validaciones → guarda
+            
             cd.Insertar(venta);
             return cd.Insertar(venta);
         }
-
-
-
-        //public void Actualizar(Ventas venta)
-        //{
-        //    if (venta.Id_Venta <= 0)
-        //        throw new Exception("Venta inválida.");
-
-        //    cd.Actualizar(venta);
-        //}
-
-        //public void Eliminar(int idVenta)
-        //{
-        //    if (idVenta <= 0)
-        //        throw new Exception("Id inválido.");
-
-        //    cd.Eliminar(idVenta);
-        //}
-
-        public DataTable MostrarFactura(int idVenta)
-        {
-            CD_Venta datos = new CD_Venta();
-            return datos.MostrarFactura(idVenta);
-        }
-
+        
     }
 }

@@ -38,19 +38,19 @@
             // Ltitulo
             // 
             this.Ltitulo.AutoSize = true;
-            this.Ltitulo.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ltitulo.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Ltitulo.Location = new System.Drawing.Point(332, 28);
             this.Ltitulo.Name = "Ltitulo";
-            this.Ltitulo.Size = new System.Drawing.Size(106, 25);
+            this.Ltitulo.Size = new System.Drawing.Size(126, 24);
             this.Ltitulo.TabIndex = 0;
-            this.Ltitulo.Text = "Facturación";
+            this.Ltitulo.Text = "Facturación:";
             // 
             // dgvVenta
             // 
             this.dgvVenta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvVenta.Location = new System.Drawing.Point(122, 72);
+            this.dgvVenta.Location = new System.Drawing.Point(171, 55);
             this.dgvVenta.Name = "dgvVenta";
-            this.dgvVenta.Size = new System.Drawing.Size(525, 241);
+            this.dgvVenta.Size = new System.Drawing.Size(460, 241);
             this.dgvVenta.TabIndex = 1;
             // 
             // btnReporte
@@ -65,7 +65,7 @@
             // 
             // btnRegresar
             // 
-            this.btnRegresar.BackColor = System.Drawing.Color.IndianRed;
+            this.btnRegresar.BackColor = System.Drawing.Color.DimGray;
             this.btnRegresar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnRegresar.Location = new System.Drawing.Point(61, 393);
             this.btnRegresar.Name = "btnRegresar";

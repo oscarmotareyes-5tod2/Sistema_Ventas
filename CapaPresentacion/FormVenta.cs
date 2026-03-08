@@ -235,6 +235,11 @@ namespace CapaPresentacion
                 MessageBox.Show("Seleccione un detalle para actualizar.");
             }
         }
+
+        private void Total_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

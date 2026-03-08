@@ -45,32 +45,34 @@
             this.btnCerrar = new System.Windows.Forms.Button();
             this.txtId = new System.Windows.Forms.TextBox();
             this.btnPrincipal = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // cmbCategoria
             // 
             this.cmbCategoria.FormattingEnabled = true;
-            this.cmbCategoria.Location = new System.Drawing.Point(99, 221);
+            this.cmbCategoria.Location = new System.Drawing.Point(87, 133);
             this.cmbCategoria.Name = "cmbCategoria";
-            this.cmbCategoria.Size = new System.Drawing.Size(121, 21);
+            this.cmbCategoria.Size = new System.Drawing.Size(98, 21);
             this.cmbCategoria.TabIndex = 0;
             this.cmbCategoria.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // Ltitulo
             // 
             this.Ltitulo.AutoSize = true;
-            this.Ltitulo.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ltitulo.Location = new System.Drawing.Point(281, 9);
+            this.Ltitulo.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ltitulo.Location = new System.Drawing.Point(263, 14);
             this.Ltitulo.Name = "Ltitulo";
-            this.Ltitulo.Size = new System.Drawing.Size(221, 23);
+            this.Ltitulo.Size = new System.Drawing.Size(191, 24);
             this.Ltitulo.TabIndex = 1;
             this.Ltitulo.Text = "Fomulario Producto";
             // 
             // Lnombre
             // 
             this.Lnombre.AutoSize = true;
-            this.Lnombre.Location = new System.Drawing.Point(29, 86);
+            this.Lnombre.Location = new System.Drawing.Point(15, 35);
             this.Lnombre.Name = "Lnombre";
             this.Lnombre.Size = new System.Drawing.Size(47, 13);
             this.Lnombre.TabIndex = 2;
@@ -79,16 +81,16 @@
             // dgvProductos
             // 
             this.dgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProductos.Location = new System.Drawing.Point(262, 38);
+            this.dgvProductos.Location = new System.Drawing.Point(285, 75);
             this.dgvProductos.Name = "dgvProductos";
-            this.dgvProductos.Size = new System.Drawing.Size(432, 238);
+            this.dgvProductos.Size = new System.Drawing.Size(432, 201);
             this.dgvProductos.TabIndex = 3;
             this.dgvProductos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProductos_CellClick);
             // 
             // Lprecio
             // 
             this.Lprecio.AutoSize = true;
-            this.Lprecio.Location = new System.Drawing.Point(29, 136);
+            this.Lprecio.Location = new System.Drawing.Point(15, 69);
             this.Lprecio.Name = "Lprecio";
             this.Lprecio.Size = new System.Drawing.Size(40, 13);
             this.Lprecio.TabIndex = 4;
@@ -97,7 +99,7 @@
             // Lstock
             // 
             this.Lstock.AutoSize = true;
-            this.Lstock.Location = new System.Drawing.Point(29, 182);
+            this.Lstock.Location = new System.Drawing.Point(15, 101);
             this.Lstock.Name = "Lstock";
             this.Lstock.Size = new System.Drawing.Size(38, 13);
             this.Lstock.TabIndex = 5;
@@ -106,7 +108,7 @@
             // Lcategoria
             // 
             this.Lcategoria.AutoSize = true;
-            this.Lcategoria.Location = new System.Drawing.Point(29, 224);
+            this.Lcategoria.Location = new System.Drawing.Point(15, 136);
             this.Lcategoria.Name = "Lcategoria";
             this.Lcategoria.Size = new System.Drawing.Size(55, 13);
             this.Lcategoria.TabIndex = 6;
@@ -114,28 +116,28 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(99, 86);
+            this.txtNombre.Location = new System.Drawing.Point(85, 35);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 7;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(99, 133);
+            this.txtPrecio.Location = new System.Drawing.Point(85, 66);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(100, 20);
             this.txtPrecio.TabIndex = 8;
             // 
             // txtStock
             // 
-            this.txtStock.Location = new System.Drawing.Point(99, 182);
+            this.txtStock.Location = new System.Drawing.Point(85, 101);
             this.txtStock.Name = "txtStock";
             this.txtStock.Size = new System.Drawing.Size(100, 20);
             this.txtStock.TabIndex = 9;
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(346, 298);
+            this.btnGuardar.Location = new System.Drawing.Point(43, 253);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(75, 23);
             this.btnGuardar.TabIndex = 10;
@@ -145,7 +147,7 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(427, 298);
+            this.btnActualizar.Location = new System.Drawing.Point(124, 253);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(75, 23);
             this.btnActualizar.TabIndex = 11;
@@ -155,7 +157,7 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(508, 298);
+            this.btnEliminar.Location = new System.Drawing.Point(205, 253);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 12;
@@ -175,7 +177,7 @@
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(101, 49);
+            this.txtId.Location = new System.Drawing.Point(46, 14);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(23, 20);
             this.txtId.TabIndex = 14;
@@ -183,9 +185,9 @@
             // 
             // btnPrincipal
             // 
-            this.btnPrincipal.BackColor = System.Drawing.Color.IndianRed;
+            this.btnPrincipal.BackColor = System.Drawing.Color.DimGray;
             this.btnPrincipal.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnPrincipal.Location = new System.Drawing.Point(32, 410);
+            this.btnPrincipal.Location = new System.Drawing.Point(41, 376);
             this.btnPrincipal.Name = "btnPrincipal";
             this.btnPrincipal.Size = new System.Drawing.Size(75, 28);
             this.btnPrincipal.TabIndex = 15;
@@ -193,32 +195,44 @@
             this.btnPrincipal.UseVisualStyleBackColor = false;
             this.btnPrincipal.Click += new System.EventHandler(this.btnPrincipal_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.Lnombre);
+            this.groupBox1.Controls.Add(this.cmbCategoria);
+            this.groupBox1.Controls.Add(this.Lprecio);
+            this.groupBox1.Controls.Add(this.Lstock);
+            this.groupBox1.Controls.Add(this.Lcategoria);
+            this.groupBox1.Controls.Add(this.txtNombre);
+            this.groupBox1.Controls.Add(this.txtPrecio);
+            this.groupBox1.Controls.Add(this.txtStock);
+            this.groupBox1.Location = new System.Drawing.Point(63, 75);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 162);
+            this.groupBox1.TabIndex = 16;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Registrar";
+            // 
             // FormProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(853, 450);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnPrincipal);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnGuardar);
-            this.Controls.Add(this.txtStock);
-            this.Controls.Add(this.txtPrecio);
-            this.Controls.Add(this.txtNombre);
-            this.Controls.Add(this.Lcategoria);
-            this.Controls.Add(this.Lstock);
-            this.Controls.Add(this.Lprecio);
             this.Controls.Add(this.dgvProductos);
-            this.Controls.Add(this.Lnombre);
             this.Controls.Add(this.Ltitulo);
-            this.Controls.Add(this.cmbCategoria);
             this.Name = "FormProducto";
             this.Text = "FormProducto";
             this.Load += new System.EventHandler(this.FormProducto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -243,5 +257,6 @@
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Button btnPrincipal;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

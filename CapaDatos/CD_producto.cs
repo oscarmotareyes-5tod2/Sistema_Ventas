@@ -119,10 +119,6 @@ namespace CapaDatos
 
             return producto;
         }
-
-
     }
-
-
 }   
 

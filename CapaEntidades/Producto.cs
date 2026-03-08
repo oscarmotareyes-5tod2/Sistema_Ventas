@@ -16,12 +16,10 @@ namespace CapaEntidades
 
             public int Stock { get; set; }
 
-             public int Id_Categoria { get; set; }
+            public int Id_Categoria { get; set; }
 
             public string Categoria { get; set; }
 
             public bool Activo { get; set; }
     }
-
-    
 }

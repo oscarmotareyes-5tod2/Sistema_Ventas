@@ -44,17 +44,18 @@ namespace CapaPresentacion
             {
 
             
-            Categoria c = new Categoria
-            {
+              Categoria c = new Categoria
+              {
                 Id_Categoria = idSeleccionado,
                 Nombre_Categoria = txtNombre.Text,
                 Descripcion = txtDescripcion.Text
-            };
+              };
 
 
-            bl.Guardar(c);
-            Limpiar();
-            Listar();
+             bl.Guardar(c);
+             MessageBox.Show("Categoría guardada correctamente");
+             Limpiar();
+             Listar();
             }
         }
 
@@ -132,8 +133,6 @@ namespace CapaPresentacion
         {
             dgvCategoria.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvCategoria.Columns["Id_Categoria"].Visible = false;
-
-
         }
 
         private void dgvCategoria_CellClick(object sender, DataGridViewCellEventArgs e)
